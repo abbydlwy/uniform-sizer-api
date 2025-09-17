@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: uniform_sizer_api_production
-  username: uniform_sizer_api
-  password: <%= ENV["UNIFORM_SIZER_API_DATABASE_PASSWORD"] %>
+  username: postgres
+  password: postgres # <%= ENV["UNIFORM_SIZER_API_DATABASE_PASSWORD"] %>
